@@ -4,7 +4,7 @@ images:
 - name: /
   newName: /
 - name: 686710509719.dkr.ecr.ap-northeast-2.amazonaws.com/team-4
-  newTag: front-b7acb1de355d282024491680923dc4bad3968c68
+  newTag: front-a22a5f96a10ec834ece49bd05e234d261bf30d55
 - name: client-app
   newTag: main-3abede514e69bf831c9b14e42ca62ff7f179687a
 - name: kkanbustock
