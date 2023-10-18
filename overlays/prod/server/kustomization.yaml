@@ -7,7 +7,7 @@ images:
   newTag: main-a106e476c70252bf91c51222b9ebd27e2d6ca2de
 - name: app
   newTag: main-3abede514e69bf831c9b14e42ca62ff7f179687a
-- name: kkanbustock
+- name: team-4
   newTag: main-f70f4538f95eb08343161647279571c2fdbdb250
 resources:
 - ../../resources/server
