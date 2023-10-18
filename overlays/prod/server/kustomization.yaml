@@ -10,4 +10,4 @@ images:
 - name: team-4
   newTag: main-f70f4538f95eb08343161647279571c2fdbdb250
 resources:
-- ../../resources/server
+- ../../../resources/server
