@@ -16,13 +16,13 @@ metadata:
     app: client-ingress
 spec:
   rules:
-  - host: "team-4.shinhansec-pda.net" # 서브도메인 (rount 53과 같게 설정)
-    http:
-      paths:
-      - pathType: Prefix
-        path: "/"
-        backend:
-          service:
-            name: client-service # 쿠버네티스 서비스 이름
-            port:
-              number: 3000 # 서비스 포트
+    - host: "team-4.shinhansec-pda.net" # 서브도메인 (rount 53과 같게 설정)
+      http:
+        paths:
+        - pathType: Prefix
+          path: "/"
+          backend:
+            service:
+              name: client-service # 쿠버네티스 서비스 이름
+              port:
+                number: 3000 # 서비스 포트
